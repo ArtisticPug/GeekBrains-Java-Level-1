@@ -9,8 +9,7 @@ class Homework_2 {
         System.out.println(checkSum(15, 10));
         checkNumber(5);
         System.out.println(isNumberNegative(-5));
-        stringNTimes("Hello world!", 5);
-        // System.out.println(isLeapYear(1804));
+        stringNTimes("Hello world!", 3);
         System.out.println(isLeapYear(2024));
     }
 
