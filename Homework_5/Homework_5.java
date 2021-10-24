@@ -1,3 +1,10 @@
+/**
+ * Java 1. Homework 5
+ * 
+ * @author Aleksandrov Vladimir
+ * @version 23.10.2021
+ */
+
 package Homework_5;
 
 class Homework_5 {
