@@ -9,20 +9,11 @@ class Homework_5 {
         employeeArray[3] = new Employee("Evgeniev Evgeniy Evgenievich", "director", "evgeniev@mail.ru", "+79876543212", 40000, 33);
         employeeArray[4] = new Employee("Grigoriev Grigoriy Grigorievich", "account manager", "grigoriev@mail.ru", "+73217894532", 29000, 31);
 
-        // Error: The field Employee.fullName is not visible
-        // System.out.println(employeeArray[0].fullName);
-
-        for (int i = 0; i < 5; i++) {
-            if (employeeArray[i].getAge() > 40) {
-                System.out.println(employeeArray[i]);
+        for (Employee i : employeeArray) {  
+            if (i.getAge() > 40) {
+                System.out.println(i);
             }
         }
-
-        // Error: Type mismatch: cannot convert from element type Employee to int
-
-        // for (int i : employeeArray) {  
-        //     System.out.println(employeeArray[i]);
-        // }
                     
     }
 }
